@@ -36,7 +36,7 @@ class HomeScreen extends StatelessWidget {
                           decoration: BoxDecoration(
                             color: Colors.grey,
                             borderRadius: BorderRadius.circular(30),
-                            image: DecorationImage(
+                            image: const DecorationImage(
                               image:
                                   AssetImage('assets/images/1.jpg'),
                               fit: BoxFit.cover
@@ -81,7 +81,8 @@ class HomeScreen extends StatelessWidget {
                           },
                           child: Container(
                             padding: const EdgeInsets.symmetric(
-                                vertical: 5, horizontal: 12),
+                                vertical: 5, horizontal: 12,
+                            ),
                             decoration: BoxDecoration(
                               color: cubit.categoryIndex == index
                                   ? Colors.green

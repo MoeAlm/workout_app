@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';
 
-import '../profile.dart';
+import '../screens/profile.dart';
 
 AppBar buildAppBar(double width, BuildContext context,GlobalKey<ScaffoldState> key, double height) {
   return AppBar(
